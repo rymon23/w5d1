@@ -1,0 +1,21 @@
+.sections-nav {
+  display: flex;
+  justify-content: center;
+
+}
+
+.sections-nav a {
+  display: inline-block;
+  margin: 5px;
+  margin-top: 7px;
+}
+
+.sections-nav a:hover {
+  background: lightgray;
+  display: inline-block;
+}
+
+.sections-nav a:last-child {
+  text-decoration: underline;
+  background: none;
+}

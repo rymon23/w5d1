@@ -1,0 +1,58 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 20px 0px 10px;
+  border-bottom: 1px solid $light-gray;
+}
+
+.left-nav {
+  width: 20%;
+}
+.right-nav {
+  width: 25%;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left-nav > ul > li {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+#sections-sidebar-btn:hover,
+#search-modal-btn:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.right-nav > ul > li {
+
+
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+
+}
+
+.left-nav span {
+
+}
+
+
+.right-nav i {
+  font-size: 25px;
+}
+
+.right-nav i:hover {
+  background-color: lightgray;
+  cursor: pointer;
+} 
